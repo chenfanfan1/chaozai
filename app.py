@@ -1,3 +1,6 @@
+import os
+print("当前工作目录:", os.getcwd())
+print("app.py 所在目录:", os.path.dirname(os.path.abspath(__file__)))
 import streamlit as st
 import os
 import numpy as np
